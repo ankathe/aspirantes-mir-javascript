@@ -1,6 +1,11 @@
 function bmi (peso, altura) {
+    if(peso <0 || altura <0){
+        return "The height or weight should not be negative"
+    }
+
+
     const resultado = (peso/(altura * altura));
-    return "bmi =" + resultado; 
+    return resultado; 
 }  
 
 console.log(bmi(65, 1.62));
