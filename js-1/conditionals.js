@@ -1,6 +1,5 @@
-function calcularColor(num) {
+function calculateColor(num) {
   let color = "";
-
   switch (num) {
     case 1: {
       color = "black";
@@ -21,9 +20,7 @@ function calcularColor(num) {
   }
   return "El color es " + color;
 }
-
-// código de prueba
-console.log(calcularColor(1)); // "El color es negro"
-console.log(calcularColor(2)); // "El color es blanco"
-console.log(calcularColor(3)); // "El color es azul"
-console.log(calcularColor(8)); // "El color es verde"
+console.log(calculateColor(1));
+console.log(calculateColor(2)); 
+console.log(calculateColor(3)); 
+console.log(calculateColor(8)); 
