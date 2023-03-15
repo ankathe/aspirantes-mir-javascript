@@ -1,7 +1,7 @@
-function hello(name) {
+function hola(name) {
   return "hello " + name + "!";
 }
-console.log(hello("angie"));
-console.log(hello("hector"));
-console.log(hello("fidel"));
-console.log(hello("pepito"));
+console.log(hola("angie"));
+console.log(hola("hector"));
+console.log(hola("fidel"));
+console.log(hola("pepito"));
