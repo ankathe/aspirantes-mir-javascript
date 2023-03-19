@@ -1,6 +1,6 @@
 let persona = {
   nombre: "",
-  edad: null,
+  edad: 0,
   ciudad: "",
   profesion: "",
 };
